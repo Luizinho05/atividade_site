@@ -6,11 +6,10 @@ import Filmes from './pages/Filmes'
 import Cadastro from './pages/Cadastro'
 import Series from './pages/Series'
 import Cartaz from './home/cartaz'
-import Teste from './home/teste'
-import Gelo from './home/gelo'
-import Grande from './home/gente-grande'
-import Flash from './home/serie1'
-
+import Estreias from './home/estreias'
+import SerieP from './home/SerieP'
+import Hojetv from './home/Hojetv'
+import Natv from './home/tv'
 
 export default function Rotas() {
     return (
@@ -21,11 +20,11 @@ export default function Rotas() {
                 <Route path='/Filmes' element={ <Filmes /> } />
                 <Route path='/Cadastro' element={ <Cadastro /> } />
                 <Route path='/Series' element={<Series />} />
-                <Route path='/Cartaz' element={<Cartaz />} />
-                <Route path='/Teste' element={<Teste />} />
-                <Route path='./gelo' element={<Gelo />} />
-                <Route path='./Grande' element={<Grande />} />
-                <Route path='./Flash' element={<Flash />} />
+                <Route path='/cartaz' element={<Cartaz />} />
+                <Route path='/estreias' element={<Estreias />} />
+                <Route path='/SerieP' element={<SerieP />} />
+                <Route path='/Hojetv' element={<Hojetv />} />
+                <Route path='/tv' element={<Natv />} />
             </Routes>
         </BrowserRouter>
     )

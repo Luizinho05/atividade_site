@@ -37,7 +37,7 @@ class Cadastro extends Component {
     render() {
         return (
             <div>
-                <h1>Cadastro</h1>
+                <h1>Formulário de Contato</h1>
                 <form onSubmit={this.cadastrar}>
                     <label>Nome:</label>
                     <input
@@ -64,13 +64,15 @@ class Cadastro extends Component {
                         <option value='feminino'>Feminino</option>
                         <option value='masculino'>Masculino</option>
                     </select><br />
-                    <select
-                    value={this.state.preferencia}
-                    onChange={(e) => this.setState({preferencia: e.target.value})}>
-                    <option value=''></option>
-                    <option value='serie'>Série</option>
-                    <option value='filme'>Filme</option>
-                    </select><br />
+                    <div value={this.state.preferencia}
+                      onChange={(e) => this.setState({ preferencia: e.target.value})}>
+                        <legend>Qual você prefere?</legend>
+                        <label>
+                            <input type="radio" name="preferencia" value="Filmes" />Filmes</label><br />
+                        <label>
+                            <input type="radio" name="preferencia" value="Series" />Séries</label><br />
+                        </div>
+                        
                     <button type='submit'>Enviar</button>
                 </form>
             </div>

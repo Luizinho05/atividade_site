@@ -5,35 +5,32 @@ export default function Header(){
 
     return(
         <div id="fundo">
-           <div class="dropdown">
-  <button class="dropbtn">Início</button>
+
+  <h2 class="h1">Sinopse de Filmes</h2>
+
+  <Link to='/'><h2 class="inicio">Início</h2></Link>
+
+<div class="dropdown">
+  <button class="dropbtn"><h2 class="filmes">Filmes</h2></button>
   <div class="dropdown-content">
-  <Link to='/'>Introdução</Link>
-  <Link to='/Cartaz'>Cartaz</Link>
-  <Link to='/Teste'>teste</Link>
+  <Link to='/Filmes'>Populares</Link>
+  <Link to='/cartaz'>Em Cartaz</Link>
+  <Link to='/estreias'>Estreias</Link>
   </div>
 </div>
 
 <div class="dropdown">
-  <button class="dropbtn">Filmes</button>
+  <button class="dropbtn"><h2 class="series">Séries</h2></button>
   <div class="dropdown-content">
-  <Link to='/Filmes'>Introdução</Link>
-  <Link to='/Gelo'>Era do gelo</Link>
-  <Link to='/Grande'>Gente Grande</Link>
+  <Link to='/SerieP'>Populares</Link>
+  <Link to='/Hojetv'>Hoje na TV</Link>
+  <Link to='/tv'>Na TV</Link>
   </div>
 </div>
 
-<div class="dropdown">
-  <button class="dropbtn">Séries</button>
-  <div class="dropdown-content">
-  <Link to='/serie1'>Flash</Link>
-  <Link to='/'>teste</Link>
-  <Link to='/'>teste</Link>
-  </div>
+<Link to='/Cadastro'><h2 class="contato">Contato</h2></Link>
+
 </div>
-           
-           <Link to='/Cadastro'><h2>Cadastro</h2></Link>
-    </div>
     )
     
 }
