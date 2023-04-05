@@ -5,7 +5,6 @@ export default function Header(){
 
     return(
         <div id="fundo">
-
   <h2 class="h1">Sinopse de Filmes</h2>
 
   <Link to='/'><h2 class="inicio">Início</h2></Link>
