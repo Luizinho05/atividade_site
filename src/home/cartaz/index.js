@@ -30,7 +30,9 @@ export default function Cartaz(){
             {filmes.map((filme) => {
                 return(
                     <article>
-                        <h3>{filme.title}</h3>
+                        <p>{filme.title}</p>
+                        <img src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} 
+                        alt={filme.title} />
                     </article>
                 )
             })}
