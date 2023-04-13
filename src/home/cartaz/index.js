@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-
+import { Link } from 'react-router-dom'
+import './cartaz.css'
 import api from '../../services/api'
 
 export default function Cartaz(){
@@ -25,15 +26,17 @@ export default function Cartaz(){
     console.log(filmes)
 
     return(
-        <div>
-           <h1> Em Cartaz</h1>
+        <div className="siteFilmes">
             {filmes.map((filme) => {
                 return(
-                    <article>
-                        <p>{filme.title}</p>
+                     
+                    <article key={filmes.id}>
+                        <h3>{filme.title}</h3>
                         <img src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} 
-                        alt={filme.title} />
+                        alt={filme.title} /><br />
+                        <Link class="Link" to='/'>Detalhes</Link>
                     </article>
+                 
                 )
             })}
         </div>
