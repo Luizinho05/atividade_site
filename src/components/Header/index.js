@@ -7,10 +7,10 @@ export default function Header(){
         <div id="fundo">
   <h2 class="h1">Sinopse de Filmes</h2>
 
-  <Link to='/'><h2 class="inicio">Início</h2></Link>
+  <Link to='/'><h2 class="pagina">Início</h2></Link>
 
 <div class="dropdown">
-  <button class="dropbtn"><h2 class="filmes">Filmes</h2></button>
+  <button class="dropbtn"><h2 class="paginas">Filmes</h2></button>
   <div class="dropdown-content">
   <Link to='/Filmes'>Populares</Link>
   <Link to='/cartaz'>Em Cartaz</Link>
@@ -18,8 +18,10 @@ export default function Header(){
   </div>
 </div>
 
+<Link to='/Favoritos'><h2 class="pagina">Favoritos</h2></Link>
+
 <div class="dropdown">
-  <button class="dropbtn"><h2 class="series">Séries</h2></button>
+  <button class="dropbtn"><h2 class="paginas">Séries</h2></button>
   <div class="dropdown-content">
   <Link to='/SerieP'>Populares</Link>
   <Link to='/Hojetv'>Hoje na TV</Link>
@@ -27,7 +29,14 @@ export default function Header(){
   </div>
 </div>
 
-<Link to='/Cadastro'><h2 class="contato">Contato</h2></Link>
+<div class="dropdown">
+  <button class="dropbtn"><h2 class="paginas">Contato</h2></button>
+  <div class="dropdown-content">
+  <Link to='/Cadastro'>Cadastro</Link>
+  <Link to='/Login'>Login</Link>
+  </div>
+</div>
+
 
 </div>
     )

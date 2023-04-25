@@ -1,14 +1,22 @@
 #fundo{
-    background:	#4682B4;
+    background:black;
     padding: 0px;
-    text-align:right;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 body{
-  background-color:bisque;
+  background-color:black;
+}
+
+h1{
+  color:#DAA520;
+}
+
+p{
+  color:#DAA520;
+  font-size:20px;
 }
 
 h2{
@@ -21,18 +29,23 @@ h2{
     
 }
 
+.enviar{
+  color:black;
+  padding:15px;
+  cursor: pointer;
+}
+
 .h1{
- color:white;
- text-align: left;
- display:inline-block;
+  color:white;
+  text-align: left;
+  font-style: italic;
+  display:inline-block;
   position:relative;
   margin:60px;
   border:none;
 }
 
-
-
-.inicio{
+.pagina{
   color:#DAA520;
   text-align:right;
   display:inline-block;
@@ -41,7 +54,7 @@ h2{
   border: none;
 }
 
-.filmes{
+.paginas{
   color:#DAA520;
   text-align:right;
   display:inline-block;
@@ -50,29 +63,12 @@ h2{
   border: none;
 }
 
-.series{
-  color:#DAA520;
-  text-align:right;
-  display:inline-block;
-  position:relative;
-  margin:40px;
-  border: none;
-}
-
-.contato{
-  color:#DAA520;
-  text-align:right;
-  display:inline-block;
-  position:relative;
-  margin:60px;
-  border: none;
-}
 .dropbtn {
-    background-color: #4682B4;
-    color: #DAA520;
+    background-color:black;
+    color:#DAA520;
     display: inline-block;
-    position: relative;
-    cursor: pointer;
+    position:relative;
+    cursor:pointer;
     border: none;
     margin: 20px;
   }
@@ -83,27 +79,32 @@ h2{
   }
   
   .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: #DAA520;
     padding: 8px 12px;
-    text-decoration: none;
+    text-decoration:none;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {background-color: black;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color:black;
+    background-color:#f9f9f9;
+    border-radius:500px;
   }
+
+.formulario{
+  text-align: center;
+}

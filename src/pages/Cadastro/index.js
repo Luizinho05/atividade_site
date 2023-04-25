@@ -36,27 +36,28 @@ class Cadastro extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Formulário de Contato</h1>
+            <div className="formulario">
+                <h1>Formulário de Cadastro</h1>
                 <form onSubmit={this.cadastrar}>
-                    <label>Nome:</label>
+                    <label><p>Nome:</p></label>
                     <input
                         type='text'
                         value={this.state.nome}
                         onChange={(e) => this.setState({ nome: e.target.value })}
                     /><br />
-                    <label>E-mail:</label>
+                    <label><p>E-mail:</p></label>
                     <input
                         type='text'
                         value={this.state.email}
                         onChange={(e) => this.setState({ email: e.target.value })}
                     /><br />
-                    <label>Senha:</label>
+                    <label><p>Senha:</p></label>
                     <input
                         type='password'
                         value={this.state.senha}
                         onChange={(e) => this.setState({ senha: e.target.value })}
                     /><br />
+                    <label><p>Sexo:</p></label>
                     <select
                         value={this.state.sexo}
                         onChange={(e) => this.setState({ sexo: e.target.value })}>
@@ -66,18 +67,18 @@ class Cadastro extends Component {
                     </select><br />
                     <div value={this.state.preferencia}
                       onChange={(e) => this.setState({ preferencia: e.target.value})}>
-                        <legend>Qual você prefere?</legend>
+                        <legend><p>Qual você prefere?</p></legend>
                         <label>
-                            <input type="radio" name="preferencia" value="Filmes" />Filmes</label><br />
+                            <input type="radio" name="preferencia" value="Filmes" /><p>Filmes</p></label>
                         <label>
-                            <input type="radio" name="preferencia" value="Series" />Séries</label><br />
+                            <input type="radio" name="preferencia" value="Series" /><p>Séries</p></label>
                         </div>
                         
-                    <button type='submit'>Enviar</button>
+                    <button type='submit'><strong class="enviar">Enviar</strong></button>
                 </form>
             </div>
         )
     }
 }
 
-export default Cadastro
+export default Cadastro;

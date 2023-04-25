@@ -1,0 +1,31 @@
+.article {
+    display:flex;
+    text-align:center;
+    padding: 10px;
+  }
+  
+  .ClicaAi {
+    text-align: center;
+    color: #DAA520;
+    text-decoration: none;
+    margin:30px;
+    background:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .enviar{
+    color:black;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+  }
+  

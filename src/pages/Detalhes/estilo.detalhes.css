@@ -1,0 +1,40 @@
+.codigo{
+    text-align: left;
+    font-style: italic;
+}
+
+.descriçãofilme{
+    background:black;
+    color:#DAA520;
+    text-align:justify;
+    font-style:italic;
+    text-align:left;
+    font-size:30px;
+}
+
+strong{
+    color:white;
+}
+
+.Detalhes{
+    color:#DAA520;
+}
+
+img{
+    float: left;
+}
+
+.sobrefilme{
+    color: goldenrod;
+}
+
+.cartaz{
+    background-color:goldenrod;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
