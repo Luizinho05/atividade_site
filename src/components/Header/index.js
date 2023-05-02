@@ -18,7 +18,14 @@ export default function Header(){
   </div>
 </div>
 
-<Link to='/Favoritos'><h2 class="pagina">Favoritos</h2></Link>
+
+<div class="dropdown">
+  <button class="dropbtn"><h2 class="paginas">Favoritos</h2></button>
+  <div class="dropdown-content">
+  <Link to='/Favoritos'>Filmes favoritos</Link>
+  <Link to='/Favorita'>Séries Favoritas</Link>
+  </div>
+</div>
 
 <div class="dropdown">
   <button class="dropbtn"><h2 class="paginas">Séries</h2></button>

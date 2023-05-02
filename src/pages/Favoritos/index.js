@@ -21,8 +21,9 @@ export default function Favoritos(){
     
 
     return(
-        <div>
-            <h1>Página de Favoritos</h1>
+        <div><br/>
+            <strong id="temasiniciais">Página de Filmes Favoritos</strong>
+            
             {filmes.map((filme) => {
                 return(
                     

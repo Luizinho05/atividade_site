@@ -49,7 +49,7 @@ export default function Detalhes() {
                 <strong>Nota:</strong> {Number(filme.vote_average).toFixed(1)}<br />
                 <strong>Data de lançamento:</strong>{moment(new Date(`${filme.release_date}`)).format('DD-MM-YYYY')}<br />
             </p><br />
-            <h1 class="codigo"> Filme n° {id}</h1>
+            <h1 class="codigo">Filme n°{id}</h1>
             <h3 class="Detalhes">Outros Filmes: <Link class="cartaz" to='/cartaz'>Em Cartaz</Link></h3>
             <button onClick={Salvar}>Salvar Filme</button>
         </div>

@@ -36,28 +36,28 @@ class Cadastro extends Component {
 
     render() {
         return (
-            <div className="formulario">
-                <h1>Formulário de Cadastro</h1>
-                <form onSubmit={this.cadastrar}>
-                    <label><p>Nome:</p></label>
+            <div className="formulario"><br/>
+                <strong id="temasiniciais">Formulário de Cadastro</strong>
+                <form onSubmit={this.cadastrar}><br/>
+                    <label><strong class="contato">Nome:</strong></label>
                     <input
                         type='text'
                         value={this.state.nome}
                         onChange={(e) => this.setState({ nome: e.target.value })}
                     /><br />
-                    <label><p>E-mail:</p></label>
+                    <label><strong class="contato">E-mail:</strong></label>
                     <input
-                        type='text'
+                        type='email'
                         value={this.state.email}
                         onChange={(e) => this.setState({ email: e.target.value })}
                     /><br />
-                    <label><p>Senha:</p></label>
+                    <label><strong class="contato">Senha:</strong></label>
                     <input
                         type='password'
                         value={this.state.senha}
                         onChange={(e) => this.setState({ senha: e.target.value })}
                     /><br />
-                    <label><p>Sexo:</p></label>
+                    <label><strong class="contato">Sexo:</strong></label>
                     <select
                         value={this.state.sexo}
                         onChange={(e) => this.setState({ sexo: e.target.value })}>
@@ -66,13 +66,13 @@ class Cadastro extends Component {
                         <option value='masculino'>Masculino</option>
                     </select><br />
                     <div value={this.state.preferencia}
-                      onChange={(e) => this.setState({ preferencia: e.target.value})}>
-                        <legend><p>Qual você prefere?</p></legend>
+                      onChange={(e) => this.setState({ preferencia: e.target.value})}><br/>
+                        <legend><strong class="contato">Qual você prefere?</strong></legend>
                         <label>
-                            <input type="radio" name="preferencia" value="Filmes" /><p>Filmes</p></label>
+                            <input type="radio" name="preferencia" value="Filmes" /><strong class="contato">Filmes</strong></label><br/>
                         <label>
-                            <input type="radio" name="preferencia" value="Series" /><p>Séries</p></label>
-                        </div>
+                            <input type="radio" name="preferencia" value="Series" /><strong class="contato">Séries</strong></label><br/>
+                        </div><br/>
                         
                     <button type='submit'><strong class="enviar">Enviar</strong></button>
                 </form>

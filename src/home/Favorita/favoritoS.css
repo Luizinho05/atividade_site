@@ -1,10 +1,10 @@
-.article {
+.tudo {
     display:flex;
     text-align:center;
     padding: 10px;
   }
   
-  .ClicaAi {
+  .Clique{
     text-align: center;
     color: #DAA520;
     text-decoration: none;
@@ -18,7 +18,7 @@
     border-bottom-right-radius: 6px;
   }
 
-  .enviar{
+  .envie{
     color:black;
     cursor: pointer;
     padding-left: 30px;
@@ -30,4 +30,3 @@
     border-top-left-radius:15px;
     border-top-right-radius:15px;
   }
-  

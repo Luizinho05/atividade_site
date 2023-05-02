@@ -3,7 +3,7 @@
 export default function Series(){
     return(
         <div>
-            <h1>Séries</h1>
+            <h1 id="temasiniciais">Séries</h1>
         </div>
     )
 }

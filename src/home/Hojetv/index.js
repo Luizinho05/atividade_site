@@ -1,8 +1,8 @@
 
 function Hojenatv (){
     return(
-        <div>
-            <h1>Hoje na TV</h1>
+        <div><br/>
+            <strong id="temasiniciais">Hoje na TV</strong>
         </div>
     )
 }

@@ -30,16 +30,17 @@ class Login extends Component {
 
     render() {
         return (
-            <div id="formulario">
-                <h1>Formulário de Login</h1>
-                <form onSubmit={this.login}>
-                    <label>E-mail:</label>
+            <div id="formulario"><br/>
+                <strong id="temasiniciais">Formulário de Login</strong>
+                
+                <form onSubmit={this.login}><br/>
+                    <label><strong class="contato">E-mail:</strong></label>
                     <input
-                        type='text'
+                        type='email'
                         value={this.state.email}
                         onChange={(e) => this.setState({ email: e.target.value })}
                     /><br />
-                    <label>Senha:</label>
+                    <label><strong class="contato">Senha:</strong></label>
                     <input
                         type='password'
                         value={this.state.senha}

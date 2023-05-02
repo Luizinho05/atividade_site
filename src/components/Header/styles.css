@@ -1,5 +1,5 @@
 #fundo{
-    background:black;
+    background:rgba(0, 0, 0, 0.555);
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -7,16 +7,23 @@
 }
 
 body{
-  background-color:black;
+  background: url('../../fotos//atividadesite2.jpg');
 }
 
 h1{
-  color:#DAA520;
+  color:#ffb700;
 }
 
-p{
-  color:#DAA520;
+#temasiniciais{
+  color:white;
+  background-color:rgba(0, 0, 0, 0.555);
+  font-size:35px;
+}
+
+.contato{
+  color:whitesmoke;
   font-size:20px;
+  background:rgba(0, 0, 0, 0.555);
 }
 
 h2{
@@ -64,7 +71,7 @@ h2{
 }
 
 .dropbtn {
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0);
     color:#DAA520;
     display: inline-block;
     position:relative;
@@ -94,7 +101,7 @@ h2{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: black;}
+  .dropdown-content a:hover {background-color:black}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -102,9 +109,12 @@ h2{
   
   .dropdown:hover .dropbtn {
     background-color:#f9f9f9;
-    border-radius:500px;
+    border-radius:90px;
+    border-style:ridge;
+    font-style: oblique;
+    padding: 0px 2px;
   }
 
 .formulario{
-  text-align: center;
+  text-align: left;
 }

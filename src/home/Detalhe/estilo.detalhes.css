@@ -6,7 +6,7 @@
     font-style: italic;
 }
 
-.descriçãofilme{
+.descriçãoserie{
     background:rgba(0, 0, 0, 0.692);
     color:#DAA520;
     text-align:justify;
@@ -27,8 +27,18 @@ img{
     float: left;
 }
 
-.sobrefilme{
-    color: rgb(253, 181, 0);
+.sobreserie{
+    color: rgb(253, 182, 2);
+}
+
+.outrasSeries{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
 }
 
 .cartaz{
