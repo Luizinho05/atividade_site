@@ -48,7 +48,7 @@ class Login extends Component {
                         onChange={(e) => this.setState({ senha: e.target.value })}
                     /><br /><br />
 
-                    <button class='botaologin' type='submit'><strong class="login">Enviar</strong></button>
+                    <button class='botaologin' type='submit'><strong class="login">Logar</strong></button>
                 </form>
             </div>
         )
