@@ -30,7 +30,7 @@ export default function SeriesFavoritas(){
                         <h1>{serie.name}</h1><br/>
                         <br/><br/><br/>
                         <Link class="Clique" to={`/Detalhe/${serie.id}`}>Detalhes</Link>
-                        <button class="envie" onClick={() => excluirSerie (serie.id) }>Excluir</button>
+                        <button class="excluirSerie" onClick={() => excluirSerie (serie.id) }>Excluir</button>
                     </article>
                 )
             })}

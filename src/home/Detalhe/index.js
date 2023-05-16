@@ -42,7 +42,7 @@ export default function DetalhesSeries() {
 
     return (
         <div>
-            <h1 class="sobreserie">Sobre a Série:</h1>
+            <h1 class="sobreserie">Sobre a Série:</h1><br/>
             <h1 class="Detalhes">{serie.name}</h1>
             <img src={`https://image.tmdb.org/t/p/w300/${serie.poster_path}`} alt={serie.name} /><br />
             <p class="descriçãoserie"><strong>Descrição:</strong> {serie.overview}<br />
@@ -51,8 +51,8 @@ export default function DetalhesSeries() {
                 <strong>Data de lançamento:</strong>{moment(new Date(`${serie.last_air_date}`)).format('DD-MM-YYYY')}<br />
             </p><br />
             <h1 class="codigo">Série n°{id}</h1>
-            <h3 class="outrasSeries">Outras Séries: <Link class="cartaz" to='/SerieP'>Séries Populares</Link></h3>
-            <button onClick={Salvar}>Salvar Série</button>
+            <h3 class="outrasSeries">Outras Séries: <Link class="populares" to='/SerieP'>Séries Populares</Link></h3>
+            <button class='botaosalvarserie' onClick={Salvar}>Salvar Série</button>
         </div>
     )
 }

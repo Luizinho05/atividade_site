@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './cadastro.css'
 
 class Cadastro extends Component {
 
@@ -69,12 +70,12 @@ class Cadastro extends Component {
                       onChange={(e) => this.setState({ preferencia: e.target.value})}><br/>
                         <legend><strong class="contato">Qual você prefere?</strong></legend>
                         <label>
-                            <input type="radio" name="preferencia" value="Filmes" /><strong class="contato">Filmes</strong></label><br/>
+                            <input class='selecionar' type="radio" name="preferencia" value="Filmes" /><strong class="contato">Filmes</strong></label><br/>
                         <label>
-                            <input type="radio" name="preferencia" value="Series" /><strong class="contato">Séries</strong></label><br/>
+                            <input class='selecionar' type="radio" name="preferencia" value="Series" /><strong class="contato">Séries</strong></label><br/>
                         </div><br/>
                         
-                    <button type='submit'><strong class="enviar">Enviar</strong></button>
+                    <button class='botaocadastro' type='submit'><strong class='cadastrar'>Enviar</strong></button>
                 </form>
             </div>
         )

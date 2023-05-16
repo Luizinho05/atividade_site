@@ -15,6 +15,7 @@ import Login from './pages/Login'
 import Favoritos from './pages/Favoritos'
 import DetalhesSeries from './home/Detalhe'
 import SeriesFavoritas from './home/Favorita'
+import Informações from './home/informações'
 
 export default function Rotas() {
     return (
@@ -22,6 +23,7 @@ export default function Rotas() {
         <Header />
             <Routes>
                 <Route path='/' element={ <Inicio /> } />
+                <Route path='/informações' element={ <Informações /> } />
                 <Route path='/Detalhes/:id' element={ <Detalhes/> } />
                 <Route path='/Filmes' element={ <Filmes /> } />
                 <Route path='/Favoritos' element={ <Favoritos /> } />

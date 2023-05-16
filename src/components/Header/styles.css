@@ -1,9 +1,109 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
 #fundo{
     background:rgba(0, 0, 0, 0.555);
-    padding: 0px;
+    padding:0mm;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0px;
+}
+
+.logo{
+  color:white;
+  text-align: left;
+  font-style: italic;
+  display:inline-block;
+  position:relative;
+  margin:60px;
+  border:none;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.pagina{
+  color:black;
+  text-align:right;
+  display:inline-block;
+  position:relative;
+  margin:80px;
+  text-shadow: 3px 0 #DAA520, -3px 0 #DAA520, 0 3px #DAA520, 0 -3px #DAA520,
+  2px 2px #DAA520, -2px -2px #DAA520, 2px -2px #DAA520, -2px 2px #DAA520;
+  border: none;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.paginas{
+  color:black;
+  text-align:right;
+  display:inline-block;
+  position:relative;
+  margin:60px;
+  text-shadow: 3px 0 #DAA520, -3px 0 #DAA520, 0 3px #DAA520, 0 -3px #DAA520,
+  2px 2px #DAA520, -2px -2px #DAA520, 2px -2px #DAA520, -2px 2px #DAA520;
+  border: none;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.dropbtn {
+  background-color:rgba(0, 0, 0, 0);
+  color:#DAA520;
+  display: inline-block;
+  position:relative;
+  cursor:pointer;
+  border: none;
+  margin: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display:none;
+  border-style: outset;
+  border-color:black;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration:none;
+  display: block;
+  border-style: outset;
+}
+
+.dropdown-content a:hover {
+  background-color:black;
+  color:#DAA520;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:black;
+  font-style: oblique;
+  text-shadow: 3px 0 #DAA520, -3px 0 #DAA520, 0 3px #DAA520, 0 -3px #DAA520,
+  2px 2px #DAA520, -2px -2px #DAA520, 2px -2px #DAA520, -2px 2px #DAA520;
+  border-style:outset;
+  border-color:#DAA520;
+  border-radius:100px;
 }
 
 body{
@@ -12,18 +112,6 @@ body{
 
 h1{
   color:#ffb700;
-}
-
-#temasiniciais{
-  color:white;
-  background-color:rgba(0, 0, 0, 0.555);
-  font-size:35px;
-}
-
-.contato{
-  color:whitesmoke;
-  font-size:20px;
-  background:rgba(0, 0, 0, 0.555);
 }
 
 h2{
@@ -36,85 +124,12 @@ h2{
     
 }
 
-.enviar{
-  color:black;
-  padding:15px;
+.logo{
   cursor: pointer;
-}
+ }
 
-.h1{
-  color:white;
-  text-align: left;
-  font-style: italic;
-  display:inline-block;
-  position:relative;
-  margin:60px;
-  border:none;
-}
-
-.pagina{
-  color:#DAA520;
-  text-align:right;
-  display:inline-block;
-  position:relative;
-  margin:60px;
-  border: none;
-}
-
-.paginas{
-  color:#DAA520;
-  text-align:right;
-  display:inline-block;
-  position:relative;
-  margin:40px;
-  border: none;
-}
-
-.dropbtn {
-    background-color:rgba(0, 0, 0, 0);
-    color:#DAA520;
-    display: inline-block;
-    position:relative;
-    cursor:pointer;
-    border: none;
-    margin: 20px;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display:none;
-    position:absolute;
-    background-color:#f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: #DAA520;
-    padding: 8px 12px;
-    text-decoration:none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color:black}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color:#f9f9f9;
-    border-radius:90px;
-    border-style:ridge;
-    font-style: oblique;
-    padding: 0px 2px;
-  }
-
-.formulario{
-  text-align: left;
+ #banner {
+  width: 50px;
+  right: 50px;
+  float: left;
 }

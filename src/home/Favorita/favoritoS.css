@@ -5,6 +5,7 @@
   }
   
   .Clique{
+    background-color: black;
     text-align: center;
     color: #DAA520;
     text-decoration: none;
@@ -18,15 +19,12 @@
     border-bottom-right-radius: 6px;
   }
 
-  .envie{
-    color:black;
+  .excluirSerie{
+    background-color: black;
+    color:#DAA520;
     cursor: pointer;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
+    border-radius:100px 100px 100px 100px;
+    bottom:100px;
+    border-color:#DAA520;
+    font-size:16px;
   }

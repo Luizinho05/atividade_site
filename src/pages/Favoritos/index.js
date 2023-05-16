@@ -31,7 +31,7 @@ export default function Favoritos(){
                         <h1>{filme.title}</h1><br/>
                         <br/><br/><br/>
                         <Link class="ClicaAi" to={`/Detalhes/${filme.id}`}>Detalhes</Link>
-                        <button class="enviar" onClick={() => excluirFilme (filme.id) }>Excluir</button>
+                        <button class="excluirFilme" onClick={() => excluirFilme (filme.id) }>Excluir</button>
                     </article>
                 )
             })}

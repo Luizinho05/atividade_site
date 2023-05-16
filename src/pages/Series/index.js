@@ -1,4 +1,4 @@
-
+import './series.css'
 
 export default function Series(){
     return(

@@ -1,3 +1,5 @@
+import './estreias.css'
+
 function Estreias (){
     return(
        <div><br/>

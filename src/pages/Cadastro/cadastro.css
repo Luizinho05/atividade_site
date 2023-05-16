@@ -1,0 +1,34 @@
+.formulario{
+    text-align: center;
+  }
+
+  #temasiniciais{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.555);
+    font-size:35px;
+  }  
+
+  .contato{
+    color:whitesmoke;
+    font-size:20px;
+    background:rgba(0, 0, 0, 0.555);
+  }  
+
+  .selecionar{
+    cursor: pointer;
+  }  
+ 
+  .cadastrar{
+    color:#DAA520;
+    padding:15px;
+    cursor: pointer;
+  }  
+
+  .botaocadastro{
+    background-color: black;
+    border-style:outset;
+    border-radius: 100px 100px 100px 100px;
+    bottom:100px;
+    border-color: #DAA520;
+    font-size:16px;
+  }

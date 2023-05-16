@@ -1,4 +1,4 @@
-
+import './tv.css'
 
 export default function Natv(){
     return(

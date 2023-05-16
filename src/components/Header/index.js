@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
+import banner from '../../fotos/banner2.png'
 import './styles.css'
 
 export default function Header(){
 
     return(
         <div id="fundo">
-  <h2 class="h1">Sinopse de Filmes</h2>
-
-  <Link to='/'><h2 class="pagina">Início</h2></Link>
+  <Link className='logo' to='/'><img id="banner" src={banner} alt="banner"></img></Link>
+  
+  <Link to='/informações'><h2 class="pagina">Info</h2></Link>
 
 <div class="dropdown">
   <button class="dropbtn"><h2 class="paginas">Filmes</h2></button>

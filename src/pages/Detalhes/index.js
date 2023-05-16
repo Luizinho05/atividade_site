@@ -41,7 +41,7 @@ export default function Detalhes() {
 
     return (
         <div>
-            <h1 class="sobrefilme">Sobre o Filme:</h1>
+            <h1 class="sobrefilme">Sobre o Filme:</h1><br/>
             <h1 class="Detalhes">{filme.title}</h1>
             <img src={`https://image.tmdb.org/t/p/w300/${filme.poster_path}`} alt={filme.title} /><br />
             <p class="descriçãofilme"><strong>Descrição:</strong> {filme.overview}<br />
@@ -51,7 +51,7 @@ export default function Detalhes() {
             </p><br />
             <h1 class="codigo">Filme n°{id}</h1>
             <h3 class="Detalhes">Outros Filmes: <Link class="cartaz" to='/cartaz'>Em Cartaz</Link></h3>
-            <button onClick={Salvar}>Salvar Filme</button>
+            <button class='botaosalvarfilme' onClick={Salvar}>Salvar Filme</button>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-
+import './filmes.css'
 
 export default function Filmes(){
     return(

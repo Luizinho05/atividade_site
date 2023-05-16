@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './login.css'
 
 class Login extends Component {
 
@@ -30,7 +31,7 @@ class Login extends Component {
 
     render() {
         return (
-            <div id="formulario"><br/>
+            <div class="formulario"><br/>
                 <strong id="temasiniciais">Formulário de Login</strong>
                 
                 <form onSubmit={this.login}><br/>
@@ -47,7 +48,7 @@ class Login extends Component {
                         onChange={(e) => this.setState({ senha: e.target.value })}
                     /><br /><br />
 
-                    <button type='submit'><strong class="enviar">Enviar</strong></button>
+                    <button class='botaologin' type='submit'><strong class="login">Enviar</strong></button>
                 </form>
             </div>
         )

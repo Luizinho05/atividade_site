@@ -1,3 +1,4 @@
+import './hojetv.css'
 
 function Hojenatv (){
     return(
