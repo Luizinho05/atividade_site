@@ -5,34 +5,35 @@
 
 #fundo{
     background:rgba(0, 0, 0, 0.555);
-    padding:1px;
+    padding:0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0px;
 }
 
-.logo{
+.fotologo{
   color:white;
   text-align: left;
   font-style: italic;
   display:inline-block;
   position:relative;
-  margin:67px;
-  border:none;
-  text-decoration: none;
+  margin:50px;
   cursor: pointer;
-  font-weight: bold;
-  font-size:30px;
 }
 
+#banner {
+  width: 45px;
+  right: 45px;
+  float: left;
+}
 
 .pagina{
   color:black;
   text-align:right;
   display:inline-block;
   position:relative;
-  margin:60px;
+  margin:40px;
   text-shadow: 3px 0 #DAA520, -3px 0 #DAA520, 0 3px #DAA520, 0 -3px #DAA520,
   2px 2px #DAA520, -2px -2px #DAA520, 2px -2px #DAA520, -2px 2px #DAA520;
   border: none;
@@ -45,7 +46,7 @@
   text-align:right;
   display:inline-block;
   position:relative;
-  margin:60px;
+  margin:40px;
   text-shadow: 3px 0 #DAA520, -3px 0 #DAA520, 0 3px #DAA520, 0 -3px #DAA520,
   2px 2px #DAA520, -2px -2px #DAA520, 2px -2px #DAA520, -2px 2px #DAA520;
   border: none;
@@ -54,14 +55,13 @@
 }
 
 .dropbtn {
-  background-color:rgba(0, 0, 0, 0);
+  background-color:transparent;
   color:#DAA520;
   display: inline-block;
   position:relative;
   cursor:pointer;
   border: none;
   margin: 20px;
-  border: none;
 }
 
 .textodropdown{
@@ -127,14 +127,4 @@ h2{
     margin:20px;
     border: none;
     
-}
-
-.logo{
-  cursor: pointer;
- }
-
- #banner {
-  width: 50px;
-  right: 50px;
-  float: left;
 }

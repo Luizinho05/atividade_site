@@ -6,7 +6,7 @@ export default function Header(){
 
     return(
         <div id="fundo">
-  <Link className='logo' to='/'><img id="banner" src={banner} alt="banner"></img></Link>
+  <Link className='fotologo' to='/'><img id="banner" src={banner} alt="banner"></img></Link>
   
 
 <div class='dropdown'>
