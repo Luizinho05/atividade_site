@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Inicio from './pages/Inicio'
 import Filmes from './pages/Filmes'
 import Cadastro from './pages/Cadastro'
@@ -38,6 +39,7 @@ export default function Rotas() {
                 <Route path='/Hojetv' element={<Hojetv />} />
                 <Route path='/tv' element={<Natv />} />
             </Routes>
+        <Footer />
         </BrowserRouter>
     )
 }
