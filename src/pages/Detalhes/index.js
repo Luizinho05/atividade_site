@@ -51,7 +51,7 @@ export default function Detalhes() {
             </p><br />
             <h1 class="codigo">Filme n°{id}</h1>
             <h3 class="Detalhes">Outros Filmes: <Link class="cartaz" to='/cartaz'>Em Cartaz</Link></h3>
-            <button class='botaosalvarfilme' onClick={Salvar}>Salvar Filme</button>
+            <button class='botaosalvarfilme' onClick={Salvar}><p>Salvar Filme</p></button>
         </div>
     )
 }

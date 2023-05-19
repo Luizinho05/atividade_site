@@ -53,11 +53,12 @@ img{
 }
 
 .botaosalvarserie{
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
-    border-top-left-radius:15px;
-    border-top-right-radius:15px;
-    text-decoration: none;
+    background-color: black;
+    color:#DAA520;
+    cursor: pointer;
+    border-radius:100px 100px 100px 100px;
+    bottom:100px;
+    border-color:#DAA520;
+    font-size:20px;
     border-style: outset;
-    padding:20px;
 }

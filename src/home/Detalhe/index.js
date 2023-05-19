@@ -52,7 +52,7 @@ export default function DetalhesSeries() {
             </p><br />
             <h1 class="codigo">Série n°{id}</h1>
             <h3 class="outrasSeries">Outras Séries: <Link class="populares" to='/SerieP'>Séries Populares</Link></h3>
-            <button class='botaosalvarserie' onClick={Salvar}>Salvar Série</button>
+            <button class='botaosalvarserie' onClick={Salvar}><p>Salvar Série</p></button>
         </div>
     )
 }
