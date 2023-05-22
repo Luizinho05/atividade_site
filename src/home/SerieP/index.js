@@ -27,14 +27,14 @@ import './series.css'
 
     return(
         <div className="siteSeries">
-            
+        
             {serie.map((series) => {
                 return(
                     
                     <article key={series.id}>
                         <h1>{series.name}</h1><br/>
                         <img src={`https://image.tmdb.org/t/p/w300/${series.poster_path}`} alt={series.name} /><br />
-                        <Link class="Link" to={`/Detalhe/${series.id}`}>Detalhes</Link>
+                        <Link class="Link" to={`/Detalhe/${series.id}`}>Detalhes</Link><br/><br/><br/><br/>
                     </article>
                  
                 )
